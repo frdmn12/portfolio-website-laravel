@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+    --font1 : 'Montserrat', sans-serif;
+}
+
+.header {
+    padding: 7px;
+    background-color: #000000;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font1);
+}
+
+.header p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.photoProfile {
+    width: 700px;
+
+}
+
+.jumbotron {
+    display: flex;
+    /* align-items: baseline; */
+}
