@@ -37,7 +37,9 @@
                 <img src="{{ asset('assets/fotoProfil.png') }}" alt="image.jpg" class="photoProfile" />
                 <div class="name">
                     <h1>Hello, Im Bayu <br>Computer Science <br> Student</h1>
-                    <button>Contact Me</button>
+                    <a href="mailto:bayuferdiman2@gmail.com">
+                        <button>Contact Me</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -102,17 +104,17 @@
         </div>
         <ul>
             <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/bayu-ferdiman/">
                     <img src="{{ asset('assets/Linkedin.png') }}" alt="linkedin">
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://github.com/frdmn12">
                     <img src="{{ asset('assets/Github.png') }}" alt="github">
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://www.behance.net/bayuferdiman">
                     <img src="{{ asset('assets/Social.png') }}" alt="behance">
                 </a>
             </li>
