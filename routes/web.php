@@ -42,8 +42,8 @@ Route::prefix('dashboard')->middleware('auth')->group(
         Route::get('/', function (){
             return view('dashboard.layout');
         });
-        Route::get('/', [halamanController::class, "index"]);
-        Route::resource('halaman', halamanController::class);
+        Route::get('/', [educationController::class, "index"]);
+        // Route::resource('halaman', halamanController::class);
         Route::resource('education', educationController::class);
         Route::resource('project', projectController::class);
     }
